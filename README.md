@@ -10,7 +10,7 @@ Victoria Mantique Rolo
 
 ## Tareas
 
-- [Distribución de tareas y reuniones de seguimiento](Documentación/Tareas_20y_20reuniones.pdf)
+- [Distribución de tareas y reuniones de seguimiento](Documentación/Tareas_y_reuniones.pdf)
 
 - [Requisitos](Documentación/Requisitos_Galerias.pdf)
 
