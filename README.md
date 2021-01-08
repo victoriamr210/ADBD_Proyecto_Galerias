@@ -10,26 +10,22 @@ Victoria Mantique Rolo
 
 ## Tareas
 
+- [Distribución de tareas y reuniones de seguimiento](Documentación/Tareas_20y_20reuniones.pdf)
+
 - [Requisitos](Documentación/Requisitos_Galerias.pdf)
 
 - [Modelo Conceptual (ER/E)](Documentación/ModeloER_Galerias.pdf)
 
-- [Modelo Lógico Relacional](enlace al documendo del modelo relacional)
+- [Modelo Lógico Relacional](Documentación/ModeloRelacional_Galerias.pdf)
 
-- [Generación de Código](enlace al documento de los scripts)
+- [Generación de Código](Documentación/GeneracionCodigo_Galerias.pdf)
 
-- [Carga de datos](enlace al documento de caraga de datos)
+- [Carga de datos](Documentación/CargaDatos_Galerias.pdf)
+
+- [Pruebas de la base de datos](Documentación/Pruebas_Galerias.pdf)
 
 ## Scripts
 
 - **Generación de código:** (enlace a los scripts de generacion de codigo)
 
 - **Carga de datos:** (enlace a los scipts de la carga de datos)
-
-## Pruebas de la base de datos
-
-### Inserción de datos
-
-### Consulta de datos 
-
-### Actualización de datos
