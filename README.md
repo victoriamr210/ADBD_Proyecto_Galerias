@@ -10,15 +10,15 @@ Victoria Mantique Rolo
 
 ## Tareas
 
-- **Requisitos:** (enlace al documento requisitos)
+- [Requisitos](Documentación/RequisitosGalería.pdf)
 
-- **Modelo Conceptual (ER/E):** (enlace al documento modelo ER)
+- [Modelo Conceptual (ER/E)](enlace al documento modelo ER)
 
-- **Modelo Lógico Relacional:** (enlace al documendo del modelo relacional)
+- [Modelo Lógico Relacional](enlace al documendo del modelo relacional)
 
-- **Generación de Código:** (enlace al documento de los scripts)
+- [Generación de Código](enlace al documento de los scripts)
 
-- **Carga de datos:** (enlace al documento de caraga de datos)
+- [Carga de datos](enlace al documento de caraga de datos)
 
 ## Scripts
 
