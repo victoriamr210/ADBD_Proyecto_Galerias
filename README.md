@@ -10,7 +10,7 @@ Victoria Mantique Rolo
 
 ## Tareas
 
-- [Requisitos](Documentación/RequisitosGalerias.pdf)
+- [Requisitos](Documentación/Requisitos_Galerias.pdf)
 
 - [Modelo Conceptual (ER/E)](Documentación/ModeloER_Galerias.pdf)
 
