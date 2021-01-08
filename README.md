@@ -12,7 +12,7 @@ Victoria Mantique Rolo
 
 - [Requisitos](Documentación/RequisitosGalería.pdf)
 
-- [Modelo Conceptual (ER/E)](enlace al documento modelo ER)
+- [Modelo Conceptual (ER/E)](Documentación/ModeloER_Galerias.pdf)
 
 - [Modelo Lógico Relacional](enlace al documendo del modelo relacional)
 
