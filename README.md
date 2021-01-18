@@ -22,10 +22,14 @@ Victoria Mantique Rolo
 
 - [Carga de datos](Documentación/CargaDatos_Galerias.pdf)
 
-- [Pruebas de la base de datos](Documentación/Pruebas_Galerias.pdf)
-
 ## Scripts
 
-- **Generación de código:** (enlace a los scripts de generacion de codigo)
+- **Generación de código:** 
+  - [Generación de tablas sin triggers](scripts/generacionTablasSinTriggers.sql)
+  - [Generación de tablas con triggers](scripts/galeriaConTriggers.sql)
+  - [Especialización exclusividad](scripts/triggerGeneralizacion.sql)
+  - [Exclusividad entre obra y subasta](scripts/triggerObraSubasta.sql)
+  - [Exclusividad entre obra y exposición](scripts/triggerObraExposicion.sql)
+  - [Calcular edad](scripts/triggerCalcularEdad.sql)
 
 - **Carga de datos:** (enlace a los scipts de la carga de datos)
