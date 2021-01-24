@@ -32,4 +32,16 @@ Victoria Mantique Rolo
   - [Exclusividad entre obra y exposición](scripts/triggerObraExposicion.sql)
   - [Calcular edad](scripts/triggerCalcularEdad.sql)
 
-- **Carga de datos:** (enlace a los scipts de la carga de datos)
+- **Carga de datos:** 
+  - [Obra](scripts/insertsObra.sql)
+  - [Artista](scripts/insertsArtista.sql)
+  - [Galeria](scripts/insertsGaleria.sql)
+  - [Empleado](scripts/insertsEmpleadp.sql)
+  - [Trabaja](scripts/insertsTrabaja.sql)
+  - [Subasta](scripts/insertsSubasta.sql)
+  - [Exposición](scripts/insertsExposicion.sql)
+  - [Premio](scripts/insertsPremio.sql)
+  - [Cliente](scripts/insertsCliente.sql)
+  - [Vende](scripts/insertsVende.sql)
+  - [Ofrece](scripts/insertsOfrece.sql)
+  - [Muestra](scripts/insertsMuestra.sql)
