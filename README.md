@@ -25,7 +25,7 @@ Victoria Mantique Rolo
 ## Scripts
 
 - **Generación de código:** 
-  - [Generación de tablas con triggers](scripts/GeneraciónGaleria.sql)
+  - [Generación de tablas](scripts/GeneraciónGaleria.sql)
   - [Especialización exclusividad](scripts/triggerGeneralizacion.sql)
   - [Exclusividad entre obra y subasta](scripts/triggerObraSubasta.sql)
   - [Exclusividad entre obra y exposición](scripts/triggerObraExposicion.sql)
