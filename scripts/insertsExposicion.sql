@@ -1,0 +1,15 @@
+INSERT INTO EXPOSICION (idExposicion, numObras, Nombre) VALUES (0,  15, "Blancos y Negros");
+INSERT INTO EXPOSICION (idExposicion, numObras, Nombre) VALUES (1,  20, "Invierano");
+INSERT INTO EXPOSICION (idExposicion, numObras, Nombre) VALUES (2,  35, "Fija");
+INSERT INTO EXPOSICION (idExposicion, numObras, Nombre) VALUES (3,  20, "Oda a la belleza");
+INSERT INTO EXPOSICION (idExposicion, numObras, Nombre) VALUES (4,  25, "Animales salvajes");
+INSERT INTO EXPOSICION (idExposicion, numObras, Nombre) VALUES (5,  15, "Mi vida a través de mi cámara");
+INSERT INTO EXPOSICION (idExposicion, numObras, Nombre) VALUES (6,  80, "General");
+INSERT INTO EXPOSICION (idExposicion, numObras, Nombre) VALUES (7,  35, "Esculpiendo hasta morir");
+INSERT INTO EXPOSICION (idExposicion, numObras, Nombre) VALUES (8,  22, "Pintando el mundo desde mis manos");
+INSERT INTO EXPOSICION (idExposicion, numObras, Nombre) VALUES (9,  16, "El botón de Martín");
+INSERT INTO EXPOSICION (idExposicion, numObras, Nombre) VALUES (10,  5, "Arte Mixto");
+INSERT INTO EXPOSICION (idExposicion, numObras, Nombre) VALUES (11, 10, "La expresión del rostro");
+INSERT INTO EXPOSICION (idExposicion, numObras, Nombre) VALUES (12, 10, "¿Mi cámara? Mi mejor amiga");
+INSERT INTO EXPOSICION (idExposicion, numObras, Nombre) VALUES (13, 12, "Esculpiendo mis ganas de vivir");
+INSERT INTO EXPOSICION (idExposicion, numObras, Nombre) VALUES (14, 33, "Píntame como pintabas la pintura");

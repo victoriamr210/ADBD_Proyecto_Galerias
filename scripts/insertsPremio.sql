@@ -1,0 +1,6 @@
+INSERT INTO PREMIO VALUES(1, "Premio Pictet", 2008, 20);
+INSERT INTO PREMIO VAlUES(2, "Leon de oro", 2019, 21);
+INSERT INTO PREMIO VALUES(3, "Premio Reina Sofia", 1995, 22);
+INSERT INTO PREMIO VALUES(4, "Future Generation Art", 2010, 23);
+INSERT INTO PREMIO VALUES(5, "Premio Turner", 1985, 24);
+INSERT INTO PREMIO VALUES(6, "Luxembourg Art Prize", 2015, 25);

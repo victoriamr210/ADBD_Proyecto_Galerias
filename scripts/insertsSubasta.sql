@@ -1,0 +1,15 @@
+INSERT INTO SUBASTA (idSubasta, numObras, Nombre) VALUES (0,  60, "Subastita");
+INSERT INTO SUBASTA (idSubasta, numObras, Nombre) VALUES (1, 150, "GranSubasta");
+INSERT INTO SUBASTA (idSubasta, numObras, Nombre) VALUES (2,  75, NULL);
+INSERT INTO SUBASTA (idSubasta, numObras, Nombre) VALUES (3,  15, "SubastaPrimavera");
+INSERT INTO SUBASTA (idSubasta, numObras, Nombre) VALUES (4,   5, "SuperSubastaExclusiva");
+INSERT INTO SUBASTA (idSubasta, numObras, Nombre) VALUES (5,  16, "SubastaInvierno");
+INSERT INTO SUBASTA (idSubasta, numObras, Nombre) VALUES (6,  75, NULL);
+INSERT INTO SUBASTA (idSubasta, numObras, Nombre) VALUES (7, 225, "MegaSubasta");
+INSERT INTO SUBASTA (idSubasta, numObras, Nombre) VALUES (8, 340, "Liquidacion");
+INSERT INTO SUBASTA (idSubasta, numObras, Nombre) VALUES (9,  22, NULL);
+INSERT INTO SUBASTA (idSubasta, numObras, Nombre) VALUES (10, 35, NULL);
+INSERT INTO SUBASTA (idSubasta, numObras, Nombre) VALUES (11, 15, "SubastaArtista0");
+INSERT INTO SUBASTA (idSubasta, numObras, Nombre) VALUES (12,  2, "SubastaPremium");
+INSERT INTO SUBASTA (idSubasta, numObras, Nombre) VALUES (13, 35, NULL);
+INSERT INTO SUBASTA (idSubasta, numObras, Nombre) VALUES (14, 20, NULL);

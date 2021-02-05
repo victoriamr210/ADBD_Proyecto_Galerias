@@ -1,0 +1,10 @@
+INSERT INTO GALERIA (idGALERIA, Aforo, Ubicacion, Nombre) VALUES (0, 350, "Madrid", "ParraYRomero");
+INSERT INTO GALERIA (idGALERIA, Aforo, Ubicacion, Nombre) VALUES (1, 225, "Lisboa", "Maisterravalbuena");
+INSERT INTO GALERIA (idGALERIA, Aforo, Ubicacion, Nombre) VALUES (2, 550, "Vigo", "Bacelos");
+INSERT INTO GALERIA (idGALERIA, Aforo, Ubicacion, Nombre) VALUES (3, 350, "Barcelona", "ADN");
+INSERT INTO GALERIA (idGALERIA, Aforo, Ubicacion, Nombre) VALUES (4, 180, "Islas Baleares", "L21");
+INSERT INTO GALERIA (idGALERIA, Aforo, Ubicacion, Nombre) VALUES (5, 720, "Madrid", "Elba Benítez");
+INSERT INTO GALERIA (idGALERIA, Aforo, Ubicacion, Nombre) VALUES (6, 370, "Madrid", "Ponce+Robles");
+INSERT INTO GALERIA (idGALERIA, Aforo, Ubicacion, Nombre) VALUES (7, 430, "Bilbao", "CarrerasMugica");
+INSERT INTO GALERIA (idGALERIA, Aforo, Ubicacion, Nombre) VALUES (8, 550, "Valencia", "Rosa Santos");
+INSERT INTO GALERIA (idGALERIA, Aforo, Ubicacion, Nombre) VALUES (9, 225, "Murcia", "NF");
