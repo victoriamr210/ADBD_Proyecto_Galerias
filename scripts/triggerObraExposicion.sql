@@ -1,8 +1,8 @@
-CREATE DEFINER = CURRENT_USER TRIGGER `galeriaArte`.`exclusividad_obra_muestra` BEFORE INSERT ON `MUESTRA` FOR EACH ROW
+CREATE DEFINER = CURRENT_USER TRIGGER `galeriaArte`.`ExclusividadObra_Muestra` BEFORE INSERT ON `MUESTRA` FOR EACH ROW
 BEGIN
-  DECLARE id INT;
-  SELECT idOBRA INTO @id FROM MUESTRA WHERE idOBRA = NEW.idOBRA limit 1;
-  IF (@id = NEW.idOBRA) THEN
-    SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Condición de exclusividad entre OFRECE y MUESTRA respecto OBRA';
-   END IF;
+	DECLARE id INT;
+    SELECT idOBRA INTO @id FROM OFRECE WHERE idObra = NEW.idOBRA limit 1;
+	IF (@id = NEW.idObra) THEN
+		 SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Condición de exclusividad entre OFRECE y MUESTRA respecto OBRA';
+    END IF;
 END

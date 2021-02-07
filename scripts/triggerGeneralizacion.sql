@@ -4,3 +4,4 @@ BEGIN
 	  SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'El tipo de obra solo puede ser Escultura, Pintura o Fotografia';
    END IF;
 END
+

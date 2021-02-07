@@ -30,6 +30,7 @@ Victoria Mantique Rolo
   - [Exclusividad entre obra y subasta](scripts/triggerObraSubasta.sql)
   - [Exclusividad entre obra y exposición](scripts/triggerObraExposicion.sql)
   - [Calcular edad](scripts/triggerCalcularEdad.sql)
+  - [Exclusividad tipo de obra](scripts/triggerObraTipo.sql)
 
 - **Carga de datos:** 
   - [Obra](scripts/insertsObra.sql) 
@@ -45,3 +46,4 @@ Victoria Mantique Rolo
   - [Muestra](scripts/insertsMuestra.sql) 
   - [Galeria organiza subasta](scripts/insertsOrganizaSubasta.sql) 
   - [Galeria organiza exposición](scripts/insertsOrganizaExposicion.sql)
+  

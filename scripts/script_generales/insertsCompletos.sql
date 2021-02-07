@@ -1,0 +1,261 @@
+-- Artistas
+INSERT INTO `ARTISTA` VALUES (1,'Alfonso Albacete',14,'1950-02-01',71);
+INSERT INTO `ARTISTA` VALUES (2,'Eduardo Arroyo',18,'1937-02-26',84);
+INSERT INTO `ARTISTA` VALUES (3,'Abraham Lacalle',68,'1962-10-02',58);
+INSERT INTO `ARTISTA` VALUES (4,'Miquel Barceló',47,'1957-01-08',64);
+INSERT INTO `ARTISTA` VALUES (5,'Pablo Ruiz Picasso',15691,NULL,NULL);
+INSERT INTO `ARTISTA` VALUES (6,'Luis Gordillo',331,'1934-05-24',86);
+INSERT INTO `ARTISTA` VALUES (7,'Antonio López García',58,'1936-01-06',85);
+INSERT INTO `ARTISTA` VALUES (8,'Eduardo Naranjo',288,'1944-05-25',76);
+INSERT INTO `ARTISTA` VALUES (9,'Ricardo Sanz',13,'1957-03-12',63);
+INSERT INTO `ARTISTA` VALUES (10,'Vincent Willem van Gogh',800,NULL,NULL);
+INSERT INTO `ARTISTA` VALUES (11,'Ansel Adams',766,NULL,NULL);
+INSERT INTO `ARTISTA` VALUES (12,'Steve McCurry',315,'1950-06-13',71);
+INSERT INTO `ARTISTA` VALUES (13,'Henry Moore',87,NULL,NULL);
+INSERT INTO ARTISTA VALUES (14, "Benoit Aquin", 20, '1963-01-14', 58);
+INSERT INTO ARTISTA VALUES(15, "Arthur Jafa", 18, '1960-11-30', 60);
+INSERT INTO ARTISTA VALUES(16, "Luis Javier Gaya", 30, '1962-11-10', 59);
+INSERT INTO ARTISTA VALUES(17, "Cinthia Marcelle", 12, '1974-10-22', 47);
+INSERT INTO ARTISTA VALUES(18, "Howard Hodgkin", 45, '1932-8-6', 84);
+INSERT INTO ARTISTA VALUES(19, "Albert Janzen", 12, '1989-02-27', 32);
+
+
+-- Galerías
+INSERT INTO GALERIA (idGALERIA, Aforo, Ubicacion, Nombre) VALUES (0, 350, "Madrid", "ParraYRomero");
+INSERT INTO GALERIA (idGALERIA, Aforo, Ubicacion, Nombre) VALUES (1, 225, "Lisboa", "Maisterravalbuena");
+INSERT INTO GALERIA (idGALERIA, Aforo, Ubicacion, Nombre) VALUES (2, 550, "Vigo", "Bacelos");
+INSERT INTO GALERIA (idGALERIA, Aforo, Ubicacion, Nombre) VALUES (3, 350, "Barcelona", "ADN");
+INSERT INTO GALERIA (idGALERIA, Aforo, Ubicacion, Nombre) VALUES (4, 180, "Islas Baleares", "L21");
+INSERT INTO GALERIA (idGALERIA, Aforo, Ubicacion, Nombre) VALUES (5, 720, "Madrid", "Elba Benítez");
+INSERT INTO GALERIA (idGALERIA, Aforo, Ubicacion, Nombre) VALUES (6, 370, "Madrid", "Ponce+Robles");
+INSERT INTO GALERIA (idGALERIA, Aforo, Ubicacion, Nombre) VALUES (7, 430, "Bilbao", "CarrerasMugica");
+INSERT INTO GALERIA (idGALERIA, Aforo, Ubicacion, Nombre) VALUES (8, 550, "Valencia", "Rosa Santos");
+INSERT INTO GALERIA (idGALERIA, Aforo, Ubicacion, Nombre) VALUES (9, 225, "Murcia", "NF");
+
+-- Empleados
+INSERT INTO EMPLEADO (DNI, Nombre, Puesto) VALUES (000, "Esther Jorge Paramio", "gerente");
+INSERT INTO EMPLEADO (DNI, Nombre, Puesto) VALUES (001, "Victoria Manrique Rolo", "guia");
+INSERT INTO EMPLEADO (DNI, Nombre, Puesto) VALUES (002, "Eduardo Díaz Hernández", "recepcionista");
+INSERT INTO EMPLEADO (DNI, Nombre, Puesto) VALUES (003, "Sergio Guerra Arencibia", "gerente");
+INSERT INTO EMPLEADO (DNI, Nombre, Puesto) VALUES (004, "Carlos Díaz Calzadilla", "guia");
+INSERT INTO EMPLEADO (DNI, Nombre, Puesto) VALUES (005, "Jorge Acevedo de León", "recepcionista");
+INSERT INTO EMPLEADO (DNI, Nombre, Puesto) VALUES (006, "Lucas Bodson Lobado", "gerente");
+INSERT INTO EMPLEADO (DNI, Nombre, Puesto) VALUES (007, "Guillermo Hernández Díaz", "guia");
+INSERT INTO EMPLEADO (DNI, Nombre, Puesto) VALUES (008, "Manuel Carrera Galafate", "recepcionista");
+INSERT INTO EMPLEADO (DNI, Nombre, Puesto) VALUES (009, "Eric Suárez Arteaga", "gerente");
+INSERT INTO EMPLEADO (DNI, Nombre, Puesto) VALUES (010, "David Martín Martín", "guia");
+INSERT INTO EMPLEADO (DNI, Nombre, Puesto) VALUES (011, "José Perez Hernández", "recepcionista");
+INSERT INTO EMPLEADO (DNI, Nombre, Puesto) VALUES (012, "Laura Oliva Martínez", "gerente");
+INSERT INTO EMPLEADO (DNI, Nombre, Puesto) VALUES (013, "Tania Oliva Marrero", "guia");
+INSERT INTO EMPLEADO (DNI, Nombre, Puesto) VALUES (014, "Pedro Hernández Tomillo", "recepcionista");
+INSERT INTO EMPLEADO (DNI, Nombre, Puesto) VALUES (015, "David Valverde Santos", "gerente");
+INSERT INTO EMPLEADO (DNI, Nombre, Puesto) VALUES (016, "Eduardo Gutierrez Santos", "guia");
+INSERT INTO EMPLEADO (DNI, Nombre, Puesto) VALUES (017, "Pedro Sotas Sotillo", "recepcionista");
+INSERT INTO EMPLEADO (DNI, Nombre, Puesto) VALUES (018, "Carla Díaz Díaz", "gerente");
+INSERT INTO EMPLEADO (DNI, Nombre, Puesto) VALUES (019, "Claudia Díaz Calzadilla", "guia");
+INSERT INTO EMPLEADO (DNI, Nombre, Puesto) VALUES (020, "Sara Pérez Navas", "recepcionista");
+INSERT INTO EMPLEADO (DNI, Nombre, Puesto) VALUES (021, "Javier Santiso Romero", "gerente");
+INSERT INTO EMPLEADO (DNI, Nombre, Puesto) VALUES (022, "Pedro Sánchez Jorge", "guia");
+INSERT INTO EMPLEADO (DNI, Nombre, Puesto) VALUES (023, "Juan Toledo de León", "recepcionista");
+INSERT INTO EMPLEADO (DNI, Nombre, Puesto) VALUES (024, "Bárbara García Deus", "gerente");
+INSERT INTO EMPLEADO (DNI, Nombre, Puesto) VALUES (025, "Zurima Lugo Torres", "guia");
+INSERT INTO EMPLEADO (DNI, Nombre, Puesto) VALUES (026, "Alicia Cedrés Díaz", "recepcionista");
+INSERT INTO EMPLEADO (DNI, Nombre, Puesto) VALUES (027, "Humberto Santos Torres", "gerente");
+INSERT INTO EMPLEADO (DNI, Nombre, Puesto) VALUES (028, "Kevin Arteaga Sánchez", "guia");
+INSERT INTO EMPLEADO (DNI, Nombre, Puesto) VALUES (029, "Basilio Murcia Elias", "recepcionista");
+
+-- Trabaja
+INSERT INTO TRABAJA (idGALERIA, dniEMPLEADO, FechaIni, FechaFin) VALUES (0, 000, '2015-01-01', NULL);
+INSERT INTO TRABAJA (idGALERIA, dniEMPLEADO, FechaIni, FechaFin) VALUES (0, 001, '2015-01-01', NULL);
+INSERT INTO TRABAJA (idGALERIA, dniEMPLEADO, FechaIni, FechaFin) VALUES (0, 002, '2015-01-01', NULL);
+INSERT INTO TRABAJA (idGALERIA, dniEMPLEADO, FechaIni, FechaFin) VALUES (1, 003, '2014-04-16', NULL);
+INSERT INTO TRABAJA (idGALERIA, dniEMPLEADO, FechaIni, FechaFin) VALUES (1, 004, '2015-01-01', NULL);
+INSERT INTO TRABAJA (idGALERIA, dniEMPLEADO, FechaIni, FechaFin) VALUES (1, 005, '2013-02-06', '2019-03-15');
+INSERT INTO TRABAJA (idGALERIA, dniEMPLEADO, FechaIni, FechaFin) VALUES (2, 006, '2012-06-03', NULL);
+INSERT INTO TRABAJA (idGALERIA, dniEMPLEADO, FechaIni, FechaFin) VALUES (2, 007, '011-08-24', NULL);
+INSERT INTO TRABAJA (idGALERIA, dniEMPLEADO, FechaIni, FechaFin) VALUES (2, 008, '2006-11-05', '2010-03-10');
+INSERT INTO TRABAJA (idGALERIA, dniEMPLEADO, FechaIni, FechaFin) VALUES (3, 009, '2008-11-05', '2010-02-22');
+INSERT INTO TRABAJA (idGALERIA, dniEMPLEADO, FechaIni, FechaFin) VALUES (3, 0010, '2011-11-05', NULL);
+INSERT INTO TRABAJA (idGALERIA, dniEMPLEADO, FechaIni, FechaFin) VALUES (3, 0011, '2013-11-05', NULL);
+INSERT INTO TRABAJA (idGALERIA, dniEMPLEADO, FechaIni, FechaFin) VALUES (4, 012, '2006-12-18', NULL);
+INSERT INTO TRABAJA (idGALERIA, dniEMPLEADO, FechaIni, FechaFin) VALUES (4, 013, '2006-12-17', NULL);
+INSERT INTO TRABAJA (idGALERIA, dniEMPLEADO, FechaIni, FechaFin) VALUES (4, 014, '2006-12-18', NULL);
+INSERT INTO TRABAJA (idGALERIA, dniEMPLEADO, FechaIni, FechaFin) VALUES (5, 015, '2008-12-04', NULL);
+INSERT INTO TRABAJA (idGALERIA, dniEMPLEADO, FechaIni, FechaFin) VALUES (5, 016, '2008-11-05', '2009-11-07');
+INSERT INTO TRABAJA (idGALERIA, dniEMPLEADO, FechaIni, FechaFin) VALUES (5, 017, '2008-10-05', NULL);
+INSERT INTO TRABAJA (idGALERIA, dniEMPLEADO, FechaIni, FechaFin) VALUES (6, 018, '2013-05-17', NULL);
+INSERT INTO TRABAJA (idGALERIA, dniEMPLEADO, FechaIni, FechaFin) VALUES (6, 019, '2012-09-06', NULL);
+INSERT INTO TRABAJA (idGALERIA, dniEMPLEADO, FechaIni, FechaFin) VALUES (6, 020, '2009-12-07', NULL);
+INSERT INTO TRABAJA (idGALERIA, dniEMPLEADO, FechaIni, FechaFin) VALUES (7, 021, '2018-12-14', NULL);
+INSERT INTO TRABAJA (idGALERIA, dniEMPLEADO, FechaIni, FechaFin) VALUES (7, 022, '2017-10-24', NULL);
+INSERT INTO TRABAJA (idGALERIA, dniEMPLEADO, FechaIni, FechaFin) VALUES (7, 023, '2017-01-30', NULL);
+INSERT INTO TRABAJA (idGALERIA, dniEMPLEADO, FechaIni, FechaFin) VALUES (8, 024, '007-07-07', '2018-09-09');
+INSERT INTO TRABAJA (idGALERIA, dniEMPLEADO, FechaIni, FechaFin) VALUES (8, 025, '2019-12-30', NULL);
+INSERT INTO TRABAJA (idGALERIA, dniEMPLEADO, FechaIni, FechaFin) VALUES (8, 026, '2020-03-02', NULL);
+INSERT INTO TRABAJA (idGALERIA, dniEMPLEADO, FechaIni, FechaFin) VALUES (9, 027, '2015-08-14', '2017-08-16');
+INSERT INTO TRABAJA (idGALERIA, dniEMPLEADO, FechaIni, FechaFin) VALUES (9, 028, '2008-11-06', NULL);
+INSERT INTO TRABAJA (idGALERIA, dniEMPLEADO, FechaIni, FechaFin) VALUES (9, 029, '2011-10-09', NULL);
+
+-- Obras
+INSERT INTO `OBRA` VALUES (1,14000,'Riego Nocturno',2019,'Expresionismo abstracto','130x97',NULL,NULL,'Lienzo','Acrílica',NULL,NULL,NULL,'Pintura',1,NULL,NULL,NULL,NULL);
+INSERT INTO `OBRA` VALUES (2,8500,'Pintura Errante',2019,'Expresionismo abstracto','130x97',NULL,NULL,'Lienzo','Acrílica',NULL,NULL,NULL,'Pintura',1,NULL,NULL,NULL,NULL);
+INSERT INTO `OBRA` VALUES (3,10000,'Segundo Tiempo',2019,'Expresionismo abstracto','97x97',NULL,NULL,'Lienzo','Acrílica',NULL,NULL,NULL,'Pintura',1,NULL,NULL,NULL,NULL);
+INSERT INTO `OBRA` VALUES (4,1210,'Europa',1989,'Neofiguración','76x56',NULL,NULL,'Metal','Litografía',NULL,NULL,NULL,'Pintura',2,NULL,NULL,NULL,NULL);
+INSERT INTO `OBRA` VALUES (5,2060,'Éboli',2004,'Neofiguración','80x60',NULL,NULL,'Metal','AguaFuerte',NULL,NULL,NULL,'Pintura',2,NULL,NULL,NULL,NULL);
+INSERT INTO `OBRA` VALUES (6,8470,'Caballero',1985,'Neofiguración','66x43x12','Acero cortén','Variada',NULL,NULL,NULL,NULL,NULL,'Escultura',2,NULL,NULL,NULL,NULL);
+INSERT INTO `OBRA` VALUES (7,8020,'Melancolía',2018,'Pintura narrativa','153x205',NULL,NULL,'Papel','Acuarela',NULL,NULL,NULL,'Pintura',3,NULL,NULL,NULL,NULL);
+INSERT INTO `OBRA` VALUES (8,3000,'Depresión en el camino',2020,'Pintura narrativa','135x175',NULL,NULL,'Papel','Acuarela',NULL,NULL,NULL,'Pintura',3,NULL,NULL,NULL,NULL);
+INSERT INTO `OBRA` VALUES (9,1800,'La casa',2019,'Pintura narrativa','45x97',NULL,NULL,'Papel','Óleo',NULL,NULL,NULL,'Pintura',3,NULL,NULL,NULL,NULL);
+INSERT INTO `OBRA` VALUES (10,5550,'La Gran Cena Española',1988,'Neo-Expresionista','200x300',NULL,NULL,'Papel','Pigmentos y látex',NULL,NULL,NULL,'Pintura',4,NULL,NULL,NULL,NULL);
+INSERT INTO `OBRA` VALUES (11,7600,'Dos Postes',1987,'Neo-Expresionista','230x230',NULL,NULL,'Papel','Pintura industrial',NULL,NULL,NULL,'Pintura',4,NULL,NULL,NULL,NULL);
+INSERT INTO `OBRA` VALUES (12,753753000,'Guernica',1937,'Cubismo','776x349',NULL,NULL,'Lienzo','Óleo',NULL,NULL,NULL,'Pintura',5,NULL,NULL,NULL,NULL);
+INSERT INTO `OBRA` VALUES (13,14000000,'Autorretrato',1901,'Expresionismo','81x60',NULL,NULL,'Lienzo','Óleo',NULL,NULL,NULL,'Pintura',5,NULL,NULL,NULL,NULL);
+INSERT INTO `OBRA` VALUES (14,8900,'La Familia',1972,'Abstracto','150x200',NULL,NULL,'Lienzo','Acrílico',NULL,NULL,NULL,'Pintura',6,NULL,NULL,NULL,NULL);
+INSERT INTO `OBRA` VALUES (15,3000,'Automovilistas en el paisaje',1968,'Abstracto','160x111',NULL,NULL,'Lienzo','Acrílico',NULL,NULL,NULL,'Pintura',6,NULL,NULL,NULL,NULL);
+INSERT INTO `OBRA` VALUES (16,1670,'The Apparition',1963,'Expresionismo','54x80',NULL,NULL,'Lienzo','Pintura al aceite',NULL,NULL,NULL,'Pintura',7,NULL,NULL,NULL,NULL);
+INSERT INTO `OBRA` VALUES (17,1670,'Chaleco en el doblado',1971,'Surrealismo','82x65',NULL,NULL,'Lienzo','Óleo',NULL,NULL,NULL,'Pintura',8,NULL,NULL,NULL,NULL);
+INSERT INTO `OBRA` VALUES (18,7800,'El contraluz',1971,'Surrealismo','60x40',NULL,NULL,'Tabla','Óleo',NULL,NULL,NULL,'Pintura',8,NULL,NULL,NULL,NULL);
+INSERT INTO `OBRA` VALUES (19,1200,'Las Tuberías',1972,'Surrealismo','86x68',NULL,NULL,'Lienzo','Óleo',NULL,NULL,NULL,'Pintura',8,NULL,NULL,NULL,NULL);
+INSERT INTO `OBRA` VALUES (20,NULL,'Retrato de D. Jesús Posada',1987,'Luminismo','80x125',NULL,NULL,'Lienzo','Óleo',NULL,NULL,NULL,'Pintura',9,NULL,NULL,NULL,NULL);
+INSERT INTO `OBRA` VALUES (21,1000000000,'La noche estrellada',1889,'PostImpresionismo','74x92',NULL,NULL,'Lienzo','Óleo',NULL,NULL,NULL,'Pintura',10,NULL,NULL,NULL,NULL);
+INSERT INTO `OBRA` VALUES (22,71500000,'Autorretrato',1889,'PostImpresionismo','65x54',NULL,NULL,'Lienzo','Óleo',NULL,NULL,NULL,'Pintura',10,NULL,NULL,NULL,NULL);
+INSERT INTO `OBRA` VALUES (23,NULL,'Rose and Driftwood',1932,NULL,NULL,NULL,NULL,NULL,NULL,'Papel Fotográfico','Medición','Fuelle','Fotografía',11,NULL,NULL,NULL,NULL);
+INSERT INTO `OBRA` VALUES (24,NULL,'Clearing Winter Storm',1937,NULL,NULL,NULL,NULL,NULL,NULL,'Papel Fotográfico','Medición','Fuelle','Fotografía',11,NULL,NULL,NULL,NULL);
+INSERT INTO `OBRA` VALUES (25,NULL,'Ice on Ellery Lake',1941,NULL,NULL,NULL,NULL,NULL,NULL,'Papel Fotográfico','Medición','Fuelle','Fotografía',11,NULL,NULL,NULL,NULL);
+INSERT INTO `OBRA` VALUES (26,NULL,'La muchacha afgana',1984,NULL,NULL,NULL,NULL,NULL,NULL,'Papel Fotográfico','Revelado','Analógica','Fotografía',12,NULL,NULL,NULL,NULL);
+INSERT INTO `OBRA` VALUES (27,NULL,'Three Points',1939,'Surrealismo','140x190x95mm','Bronze','Variada',NULL,NULL,NULL,NULL,NULL,'Escultura',13,NULL,NULL,NULL,NULL);
+INSERT INTO `OBRA` VALUES (28,NULL,'Stringed Figure',1938,'Surrealismo','273x343x197mm','Bronze and elastic string','Variada',NULL,NULL,NULL,NULL,NULL,'Escultura',13,NULL,NULL,NULL,NULL);
+INSERT INTO `OBRA` VALUES (29,NULL,'Figure',1931,'Surrealismo','248x178x121mm','Beech','Variada',NULL,NULL,NULL,NULL,NULL,'Escultura',13,NULL,NULL,NULL,NULL);
+INSERT INTO `OBRA` VALUES (30,3800,'Recicling Figure',1939,'Surrealismo','137x254x86mm','Bronze','Variada',NULL,NULL,NULL,NULL,NULL,'Escultura',13,NULL,NULL,NULL,NULL);
+INSERT INTO `OBRA` VALUES (31,NULL,'Tormenta de arena',1987,NULL,NULL,NULL,NULL,NULL,NULL,'Papel Fotográfico','Revelado','Analógica','Fotografía',12,NULL,NULL,NULL,NULL);
+
+-- Subastas
+INSERT INTO SUBASTA (idSubasta, numObras, Nombre) VALUES (0,  60, "Subastita");
+INSERT INTO SUBASTA (idSubasta, numObras, Nombre) VALUES (1, 150, "GranSubasta");
+INSERT INTO SUBASTA (idSubasta, numObras, Nombre) VALUES (2,  75, NULL);
+INSERT INTO SUBASTA (idSubasta, numObras, Nombre) VALUES (3,  15, "SubastaPrimavera");
+INSERT INTO SUBASTA (idSubasta, numObras, Nombre) VALUES (4,   5, "SuperSubastaExclusiva");
+INSERT INTO SUBASTA (idSubasta, numObras, Nombre) VALUES (5,  16, "SubastaInvierno");
+INSERT INTO SUBASTA (idSubasta, numObras, Nombre) VALUES (6,  75, NULL);
+INSERT INTO SUBASTA (idSubasta, numObras, Nombre) VALUES (7, 225, "MegaSubasta");
+INSERT INTO SUBASTA (idSubasta, numObras, Nombre) VALUES (8, 340, "Liquidacion");
+INSERT INTO SUBASTA (idSubasta, numObras, Nombre) VALUES (9,  22, NULL);
+INSERT INTO SUBASTA (idSubasta, numObras, Nombre) VALUES (10, 35, NULL);
+INSERT INTO SUBASTA (idSubasta, numObras, Nombre) VALUES (11, 15, "SubastaArtista0");
+INSERT INTO SUBASTA (idSubasta, numObras, Nombre) VALUES (12,  2, "SubastaPremium");
+INSERT INTO SUBASTA (idSubasta, numObras, Nombre) VALUES (13, 35, NULL);
+INSERT INTO SUBASTA (idSubasta, numObras, Nombre) VALUES (14, 20, NULL);
+
+-- Exposiciones
+INSERT INTO EXPOSICION (idExposicion, numObras, Nombre) VALUES (0,  15, "Blancos y Negros");
+INSERT INTO EXPOSICION (idExposicion, numObras, Nombre) VALUES (1,  20, "Invierano");
+INSERT INTO EXPOSICION (idExposicion, numObras, Nombre) VALUES (2,  35, "Fija");
+INSERT INTO EXPOSICION (idExposicion, numObras, Nombre) VALUES (3,  20, "Oda a la belleza");
+INSERT INTO EXPOSICION (idExposicion, numObras, Nombre) VALUES (4,  25, "Animales salvajes");
+INSERT INTO EXPOSICION (idExposicion, numObras, Nombre) VALUES (5,  15, "Mi vida a través de mi cámara");
+INSERT INTO EXPOSICION (idExposicion, numObras, Nombre) VALUES (6,  80, "General");
+INSERT INTO EXPOSICION (idExposicion, numObras, Nombre) VALUES (7,  35, "Esculpiendo hasta morir");
+INSERT INTO EXPOSICION (idExposicion, numObras, Nombre) VALUES (8,  22, "Pintando el mundo desde mis manos");
+INSERT INTO EXPOSICION (idExposicion, numObras, Nombre) VALUES (9,  16, "El botón de Martín");
+INSERT INTO EXPOSICION (idExposicion, numObras, Nombre) VALUES (10,  5, "Arte Mixto");
+INSERT INTO EXPOSICION (idExposicion, numObras, Nombre) VALUES (11, 10, "La expresión del rostro");
+INSERT INTO EXPOSICION (idExposicion, numObras, Nombre) VALUES (12, 10, "¿Mi cámara? Mi mejor amiga");
+INSERT INTO EXPOSICION (idExposicion, numObras, Nombre) VALUES (13, 12, "Esculpiendo mis ganas de vivir");
+INSERT INTO EXPOSICION (idExposicion, numObras, Nombre) VALUES (14, 33, "Píntame como pintabas la pintura");
+
+-- Premios
+INSERT INTO PREMIO VALUES(1, "Premio Pictet", 2008, 20);
+INSERT INTO PREMIO VAlUES(2, "Leon de oro", 2019, 21);
+INSERT INTO PREMIO VALUES(3, "Premio Reina Sofia", 1995, 22);
+INSERT INTO PREMIO VALUES(4, "Future Generation Art", 2010, 23);
+INSERT INTO PREMIO VALUES(5, "Premio Turner", 1985, 24);
+INSERT INTO PREMIO VALUES(6, "Luxembourg Art Prize", 2015, 25);
+
+
+-- Clientes 
+
+INSERT INTO CLIENTE VALUES(1111, 'Eldrick Tont Woods', 1);
+INSERT INTO CLIENTE VALUES(2222, 'Andres Iniesta', 2);
+INSERT INTO CLIENTE VALUES(3333, 'Lebron James', 3);
+INSERT INTO CLIENTE VALUES(1212, 'Zendaya Maree', 4);
+INSERT INTO CLIENTE VALUES(1313, "Alexandra Daddario", 5);
+INSERT INTO CLIENTE VALUES(2121, "Marshall Bruce Mathers", 6);
+INSERT INTO CLIENTE VALUES(2323, "Alexandra Morgan Carrasco", 7);
+INSERT INTO CLIENTE VALUES(3131, "Usain Bolt", 8);
+INSERT INTO CLIENTE VALUES(3232, "Agatha Ruiz de la Prada", 9);
+INSERT INTO CLIENTE VALUES(4141, "Conor Anthony McGregor", 10);
+INSERT INTO CLIENTE VALUES(4242, "Donald John Trump", 11);
+INSERT INTO CLIENTE VALUES(4343, "Ariana Grande", 12);
+INSERT INTO CLIENTE VALUES(4444, "Leonardo DiCaprio", 13);
+INSERT INTO CLIENTE VALUES(5151, "Anthony Frank Hawk", 14);
+INSERT INTO CLIENTE VALUES(5252, "Shakira Isabel Mebarak", 15);
+INSERT INTO CLIENTE VALUES(5353, "Benito Antonio Martínez", 16);
+INSERT INTO CLIENTE VALUES(5454, "Scarlett Ingrid Johansson", 17);
+INSERT INTO CLIENTE VALUES(5555, "Natalie Portman", 18);
+
+-- GALERIA ORGANIZA SUBASTA
+INSERT INTO ORGANIZASUBASTA VALUES(0, 0, '2018-06-18', '2018-07-18');
+INSERT INTO ORGANIZASUBASTA VALUES (1, 3, '2015-11-12', '2016-01-15');
+INSERT INTO ORGANIZASUBASTA VALUES (2, 6, '2020-05-01', '2020-07-15');
+INSERT INTO ORGANIZASUBASTA VALUES (3, 4, '2021-01-015', '2021-02-15');
+INSERT INTO ORGANIZASUBASTA VALUES (4, 0, '2018-12-01', '2018-012-21');
+INSERT INTO ORGANIZASUBASTA VALUES (5, 9, '2020-02-01', '2020-03-15');
+INSERT INTO ORGANIZASUBASTA VALUES (6, 7, '2014-04-13', '2014-04-28');
+INSERT INTO ORGANIZASUBASTA VALUES (7, 8, '2015-05-01', '2015-07-15');
+INSERT INTO ORGANIZASUBASTA VALUES (8, 2, '2018-10-25', '2018-11-21');
+INSERT INTO ORGANIZASUBASTA VALUES (9, 1, '2016-09-8', '2016-09-26');
+INSERT INTO ORGANIZASUBASTA VALUES (10, 3, '2020-07-01', '2020-07-10');
+INSERT INTO ORGANIZASUBASTA VALUES (11, 5, '2010-07-07', '2010-07-23');
+INSERT INTO ORGANIZASUBASTA VALUES (12, 9, '2018-12-10', '2018-12-23');
+INSERT INTO ORGANIZASUBASTA VALUES (13, 6, '2020-01-15', '2020-01-29');
+INSERT INTO ORGANIZASUBASTA VALUES (14, 6, '2019-05-15', '2020-05-25');
+
+-- GALERIA ORGANIZA SUBASTA
+INSERT INTO ORGANIZAEXPOSICION VALUES (0, 0, '2018-03-21', '2018-05-18');
+INSERT INTO ORGANIZAEXPOSICION VALUES (3, 1, '2010-03-12', '2010-03-14');
+INSERT INTO ORGANIZAEXPOSICION VALUES (6, 2, '2019-02-01', '2019-02-05');
+INSERT INTO ORGANIZAEXPOSICION VALUES (4, 3, '2021-01-07', '2021-02-15');
+INSERT INTO ORGANIZAEXPOSICION VALUES (0, 4, '2018-12-01', '2018-12-21');
+INSERT INTO ORGANIZAEXPOSICION VALUES (9, 5, '2020-02-01', '2020-03-15');
+INSERT INTO ORGANIZAEXPOSICION VALUES (7, 6, '2013-11-13', '2013-1-28');
+INSERT INTO ORGANIZAEXPOSICION VALUES (8, 7, '2015-05-01', '2015-07-15');
+INSERT INTO ORGANIZAEXPOSICION VALUES (2, 8, '2012-12-12', '2013-02-01');
+INSERT INTO ORGANIZAEXPOSICION VALUES (1, 9, '2015-09-8', '2015-09-15');
+INSERT INTO ORGANIZAEXPOSICION VALUES (3, 10, '2020-07-01', '2020-07-10');
+INSERT INTO ORGANIZAEXPOSICION VALUES (5, 11, '2012-08-08', '2012-08-25');
+INSERT INTO ORGANIZAEXPOSICION VALUES (9, 12, '2018-12-10', '2018-12-23');
+INSERT INTO ORGANIZAEXPOSICION VALUES (6, 13, '2021-03-21', '2021-04-10');
+INSERT INTO ORGANIZAEXPOSICION VALUES (6, 14, '2013-07-01', '2013-08-12');
+
+-- OFRECE 
+INSERT INTO OFRECE VALUES (0, 3);
+INSERT INTO OFRECE VALUES (1, 2);
+INSERT INTO OFRECE VALUES (2, 4);
+INSERT INTO OFRECE VALUES (3, 13);
+INSERT INTO OFRECE VALUES (4, 0);
+INSERT INTO OFRECE VALUES (5, 14);
+INSERT INTO OFRECE VALUES (6, 6);
+INSERT INTO OFRECE VALUES (7, 15);
+INSERT INTO OFRECE VALUES (8, 7);
+INSERT INTO OFRECE VALUES (9, 10);
+INSERT INTO OFRECE VALUES (10, 1);
+INSERT INTO OFRECE VALUES (11, 5);
+INSERT INTO OFRECE VALUES (12, 9);
+INSERT INTO OFRECE VALUES (13, 8);
+INSERT INTO OFRECE VALUES (14, 12);
+INSERT INTO OFRECE VALUES (15, 0);
+
+
+-- MUESTRA
+INSERT INTO MUESTRA VALUES(16, 4);
+INSERT INTO MUESTRA VALUES(17, 2);
+INSERT INTO MUESTRA VALUES(18, 0);
+INSERT INTO MUESTRA VALUES(19, 1);
+INSERT INTO MUESTRA VALUES(20, 13);
+INSERT INTO MUESTRA VALUES(21, 10);
+INSERT INTO MUESTRA VALUES(22, 9);
+INSERT INTO MUESTRA VALUES(23, 5);
+INSERT INTO MUESTRA VALUES(24, 6);
+INSERT INTO MUESTRA VALUES(25, 14);
+INSERT INTO MUESTRA VALUES(26, 7);
+
